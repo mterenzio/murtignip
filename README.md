@@ -1,11 +1,11 @@
 Murtignip
 ========================
 
-A Node.js client for consuming Gnip. Connect to the Gnip Powertrack Streaming API and manage your rules. You **must have a**
+A Node.js client for consuming Gnip. Connect to the Gnip Powertrack 2.0 Streaming API and manage your rules. You **must have a**
 **Gnip account** with Twitter PowerTrack available and enabled.
 
 ## Murtignip.Powertrack.Stream
-The stream is an EventEmitter that allows you to connect to a PowerTrack stream and start receiving data.
+The stream is an EventEmitter that allows you to connect to a PowerTrack 2.0 stream and start receiving data.
 
 ### API Methods
 
@@ -66,6 +66,3 @@ stream.on('share', function(data){
 
 stream.start();
 
-```
-===
-Tests and details to follow soon.... 
